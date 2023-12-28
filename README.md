@@ -1,2 +1,4 @@
 # dsn-group-project
-Project repo for EPICS - (Engineering Project In Community Service) 
+Project repo for EPICS - (Engineering Project In Community Service).
+
+## Tech Stack Used
