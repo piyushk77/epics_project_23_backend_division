@@ -1,0 +1,11 @@
+{
+  "name": "dsn-group-project",
+  "version": "1.0.0",
+  "description": "Project repo for EPICS - (Engineering Project In Community Service). ## Contributors  - Suryansh Sisodia - Piyush Katyal - Aman Kesarwani ## Tech Stack Used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
