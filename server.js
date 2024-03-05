@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 
@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
-// app.use('/api/user', require('./routes/user')); 
+app.use('/api/user', require('./routes/user')); 
 
 // Start server
 app.listen(PORT, () => {
