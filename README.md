@@ -5,3 +5,4 @@ Project repo for EPICS - (Engineering Project In Community Service).
 - Piyush Katyal
 - Aman Kesarwani
 ## Tech Stack Used
+- MERN
