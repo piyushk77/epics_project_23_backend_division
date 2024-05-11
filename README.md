@@ -1,6 +1,11 @@
-# finance-tracker (Backend Service)
-Web application to track and manage expenditure. This is the backend division of the personal finance tracker application under the ethnus-mern internship project.
-
+# epics-project-23-backend-division
+Project repo for EPICS - (Engineering Project In Community Service).
+## Contributors 
+- Suryansh Sisodia
+- Rohit Bhetal
+- Harsh Seiwal
+- Piyush Katyal
+- Aman Kesarwani
 ## Techstack currently being used:
 + NodeJS
 + Express
@@ -15,7 +20,7 @@ Web application to track and manage expenditure. This is the backend division of
     If you haven't cloned the project yet, you can do so by running the following command:
 
     ```shell
-    git clone git@github.com:piyushk77/finance-tracker.git
+    git clone git@github.com:piyushk77/epics-project-23-backend-division.git
     ```
 
 2. **Pull Recent Changes:**
