@@ -4,14 +4,12 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 
 app.use(cors());
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/staffManagement');
-
-// mongoose.connect('add atlas mongodb link');
 
 
 // Middleware

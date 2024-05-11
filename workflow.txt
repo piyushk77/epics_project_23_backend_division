@@ -1,8 +1,0 @@
--> landing page
-    ->login
-    ->logo on left
-->dashboard
-    ->
-->dashboard
-->staff profile
-->

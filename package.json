@@ -1,20 +1,22 @@
 {
-  "name": "dsn-group-project",
+  "name": "staff-management-backend",
   "version": "1.0.0",
-  "description": "Project repo for EPICS - (Engineering Project In Community Service). ## Contributors  - Suryansh Sisodia - Piyush Katyal - Aman Kesarwani ## Tech Stack Used",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.2.0"
+    "luxon": "^3.4.4",
+    "mongoose": "^8.0.1",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1"
   }
 }
