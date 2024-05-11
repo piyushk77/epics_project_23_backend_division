@@ -5,11 +5,13 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT;
+const dbPassword = process.env.DB_PASSWORD;
 
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/staffManagement');
+mongoose.connect(`mongodb+srv://piyush:${dbPassword}@cluster0.cw1xijx.mongodb.net/staffManagement`);
+
 
 
 // Middleware
