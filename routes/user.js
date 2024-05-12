@@ -237,6 +237,11 @@ router.get('/fetchTasks', authMiddleware, async (req, res) => {
 
 function convertDateFormat(inputDate) {
   // Date conversion function
+  const date = new Date(inputDate);
+  const year = date.getFullYear();
+  const month = (date.getMonth() + 1).toString().padStart(2, '0'); // Ensure two digits for month
+  const day = date.getDate().toString().padStart(2, '0'); // Ensure two digits for day
+  return `${year}-${month}-${day}`;
 }
 
 module.exports = router;
